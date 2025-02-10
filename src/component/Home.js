@@ -539,7 +539,7 @@ function Home() {
           <div className="border-t border-slate-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-gray-400">
-                © 2025 Making by. PSK Technologies Pvt. Ltd.
+                © 2025 Design by. PSK Technologies Pvt. Ltd.
               </p>
               <div className="flex space-x-6">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
