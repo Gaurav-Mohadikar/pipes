@@ -18,7 +18,7 @@ function Navbar() {
 
   const navItems = [
     { name: "Attendance", icon: Home, badge: null, href: "/attendance" },
-    { name: "Products", icon: Package, badge: "New", href: "/products" },
+    { name: "Products", icon: Package, badge: "New", href: "/product" },
     { name: "Billing", icon: CreditCard, badge: null, href: "/billing" },
   ]
 

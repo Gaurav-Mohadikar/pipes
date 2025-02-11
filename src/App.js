@@ -5,6 +5,7 @@ import Login from './component/Login';
 import Signup from './component/Signup';
 import Navbar from './component/Navbar';
 import Attendence from './component/Attendence';
+import Product from './component/Product';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function MainContent() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/attendance" element={<Attendence/>} />
         <Route path="/billing" element={<Billing />} />
+        <Route path="/product" element={<Product />} />
       </Routes>
     </>
   );
