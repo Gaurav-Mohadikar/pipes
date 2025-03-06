@@ -30,7 +30,7 @@ function Login() {
         if (response.ok) {
           console.log("Login successful:", data)
           // You might want to store the token in localStorage or a secure cookie here
-          // localStorage.setItem('token', data.token);
+          localStorage.setItem('token', data.token);
           navigate("/attendance") // Redirect to dashboard or home page
         } else {
           setError(data.message || "Login failed. Please check your credentials and try again.")

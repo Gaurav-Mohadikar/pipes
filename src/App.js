@@ -7,6 +7,7 @@ import Navbar from './component/Navbar';
 import Attendence from './component/Attendence';
 import Product from './component/Product';
 
+
 function App() {
   return (
     <Router>
@@ -30,6 +31,7 @@ function MainContent() {
         <Route path="/billing" element={<Billing />} />
         <Route path="/product" element={<Product />} />
       </Routes>
+     
     </>
   );
 }
